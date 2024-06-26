@@ -1,4 +1,47 @@
-*{
+* {
     margin: 0;
     padding: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+.navbar{
+    margin: auto;
+    background: rgba(0, 0, 0, 0.7)url(../Images/co-op-coding-challenge-1024x683.jpg);
+    background-blend-mode: darken;
+    display: flex;
+}
+#logo{
+    display: flex;
+    margin: auto;
+}
+#logo img{
+    border: 3px solid white;
+    border-radius: 50px;
+}
+#mainspan{
+    font-size: 25px;
+    margin: auto;
+    color: white;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+.navlist{
+    display: flex;
+    list-style-type: none;
+    margin: auto;
+    margin-left: 200px;
+}
+.navlist li{
+    margin: auto;
+    padding: 30px;
+}
+.navlist li a{
+    text-decoration: none;
+    color: white;
+}
+.navlist li a:hover{
+    color: aqua;
 }
