@@ -16,6 +16,8 @@ header {
 #logo{
     display: flex;
     margin: auto;
+    margin-right: 100px;
+    margin-left: 60px;
 }
 #logo img{
     border: 3px solid white;
@@ -26,13 +28,19 @@ header {
     margin: auto;
     color: white;
     margin-left: 10px;
-    margin-right: 20px;
+    margin-right: 5px;
+}
+#s1{
+    color: red;
+}
+#s2{
+    color: aqua;
 }
 .navlist{
     display: flex;
     list-style-type: none;
     margin: auto;
-    margin-left: 200px;
+    margin-left: -100px;
 }
 .navlist li{
     margin: auto;
@@ -40,8 +48,10 @@ header {
 }
 .navlist li a{
     text-decoration: none;
-    color: white;
+    color: rgb(94, 255, 0);
+    font-size: 18px;
+    font-family: 'Arial Narrow Bold';
 }
 .navlist li a:hover{
-    color: aqua;
+    color: rgb(255, 8, 214);
 }
